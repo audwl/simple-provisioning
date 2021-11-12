@@ -77,7 +77,7 @@
       wait: no
       group: allow tcp
       instance_tags:
-        db: webservers
+        db: webserver
       count: 1
       vpc_subnet_id: "{{result_subnet.subnet.id}}"
       assign_public_ip: yes
